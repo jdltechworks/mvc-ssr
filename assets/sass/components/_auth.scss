@@ -1,0 +1,37 @@
+.auth {
+  background: #fff;
+  box-shadow: 0 0 0 1px #ddd;
+  margin-top: 6em;
+  .icon-login {
+    background: #E76049;
+    text-align: center;
+    span {
+      color: #fff;
+      font-size: 30px;
+    }
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 5px 0 5px 5px;
+      border-color: transparent transparent transparent #E76049;
+      top: 42%;
+      bottom: 50%;
+      right: -4px;
+    }
+  }
+  .icon-spacer {
+    padding-top: 15px;
+    p {
+      margin: 0;
+    }
+  }
+
+  &-header {
+    margin-bottom: 3.5em;
+  }
+  padding-bottom: 1.7em;
+}

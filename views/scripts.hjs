@@ -1,0 +1,2 @@
+<script>window.initialState = {{{_store}}}</script>
+<script src="/bundle.js"></script>

@@ -1,0 +1,39 @@
+@media (min-width: 990px) {
+  html.default body #sidebar ~ #body {
+    margin-left: 0;
+  }
+  html.default body #rubix-nav-header {
+    margin-left: 0px;
+  }
+  html.default body #sidebar ~ #footer-container {
+    margin-left: 0;
+  }
+
+  html.default body #sidebar {
+    left: -250px;
+  }
+}
+
+
+#rubix-nav-header,
+#rubix-nav-header,
+#body,
+#footer-container {
+  margin-left: 0;
+}
+.logged-in {
+  @media (min-width: 990px) {
+    #sidebar {
+      left: 0px !important;
+    }
+    #body {
+      margin-left: 250px !important;
+    }
+    #rubix-nav-header {
+      margin-left: 250px !important;
+    }
+    #footer-container {
+      margin-left: 250px !important;
+    }
+  }
+}
